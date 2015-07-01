@@ -1,12 +1,26 @@
 {
-  "name": "dark-flat-ui",
+  "name": "excellent-ui",
   "theme": "ui",
-  "main": "lib/dark-flat-ui",
-  "version": "1.1.4",
-  "description": "A dark flat ui theme",
-  "repository": "https://github.com/olmokramer/atom-dark-flat-ui",
+  "main": "lib/excellent-ui",
+  "version": "1.0.0",
+  "description": "An excellent ui theme",
   "license": "MIT",
   "engines": {
     "atom": ">0.140.0"
+  },
+  "readme": "# Excellent UI\n\nExcellent UI theme for Atom.",
+  "readmeFilename": "README.md",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".coffee": [
+        "lib/excellent-ui.coffee"
+      ],
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": []
   }
 }

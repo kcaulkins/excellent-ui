@@ -1,5 +1,5 @@
 'use strict'
-class DarkFlatUI
+class ExcellentUI
   config:
     tabSyntaxThemeBackground:
       description: 'Match the active tab\'s background color with the text editor'
@@ -7,7 +7,7 @@ class DarkFlatUI
       default: true
 
   activate: ->
-    @sub = atom.config.observe 'dark-flat-ui', @update
+    @sub = atom.config.observe 'excellent-ui', @update
 
   deactivate: ->
     @sub.dispose()
@@ -19,4 +19,4 @@ class DarkFlatUI
     else
       workspaceView.classList.remove 'dark-flat-ui-tab-syntax-background'
 
-module.exports = new DarkFlatUI()
+module.exports = new ExcellentUI()
