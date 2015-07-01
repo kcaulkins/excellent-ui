@@ -3,6 +3,21 @@
 
 .tree-view {
   background: @tree-view-background-color;
+  font-weight: 300;
+  li.file {
+    &:hover, &.selected {
+      span {
+        position: relative;
+      }
+      &:before {
+        position: absolute;
+        background-color: #333;
+        left: 0;
+        right: 0;
+        height: 25px;
+      }
+    }
+  }
 }
 
 .tree-view-resizer {
