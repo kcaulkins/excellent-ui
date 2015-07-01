@@ -15,8 +15,8 @@ class ExcellentUI
   update: (config) ->
     workspaceView = atom.views.getView atom.workspace
     if config.tabSyntaxThemeBackground
-      workspaceView.classList.add 'dark-flat-ui-tab-syntax-background'
+      workspaceView.classList.add 'excellent-ui-tab-syntax-background'
     else
-      workspaceView.classList.remove 'dark-flat-ui-tab-syntax-background'
+      workspaceView.classList.remove 'excellent-ui-tab-syntax-background'
 
 module.exports = new ExcellentUI()
