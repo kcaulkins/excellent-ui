@@ -2,7 +2,7 @@
   "name": "excellent-ui",
   "theme": "ui",
   "main": "lib/excellent-ui",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "An excellent ui theme",
   "license": "MIT",
   "engines": {
