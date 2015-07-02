@@ -53,6 +53,18 @@
       }
     }
 
+    &.active {
+      &:before {
+        position: absolute;
+        left: 0;
+        height: @tab-height;
+        width: 1px;
+        display: block;
+        content: '';
+        border-right: 1px solid @color-accent;
+      }
+    }
+
     &.active, &:hover {
       color: @text-color-highlight;
       background-color: @tab-background-color-active !important;
